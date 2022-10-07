@@ -1,27 +1,29 @@
-import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin  } from "react-icons/fa";
 
-import styles from './Footer.module.css'
 
+import styles from "./Footer.module.css";
 
 function Footer() {
-    return(
-        <footer className={styles.footer}>
-            <ul className={styles.list}>
-                <li>
-                    <FaFacebook/>
-                </li>
+  return (
+    <footer className={styles.footer}>
+      <ul className={styles.list}>
+        <li>
+            <FaGithub />  
+        </li>
 
-                <li>
-                    <FaInstagram/>
-                </li>
+        <li>
+          <FaInstagram />
+        </li>
 
-                <li>
-                    <FaLinkedin/>
-                </li>
-            </ul>
-            <p><span>Costs</span> &copy; 2022</p>
-        </footer>
-    )
+        <li>
+          <FaLinkedin />
+        </li>
+      </ul>
+      <p>
+        <span>Costs</span> &copy; 2022
+      </p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
