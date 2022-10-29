@@ -7,20 +7,22 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 3000,
+      "services": [
+        {
+          "name": "Contratar dev Asp.Net",
+          "cost": "1500",
+          "description": "Fazer nova pagina da empresa",
+          "id": "e46f218f-76ee-4679-9254-f1553dbb4a88"
+        },
+        {
+          "name": "Contratar dev JavaScript",
+          "cost": "1500",
+          "description": "Fazer nova pagina da empresa",
+          "id": "65b40148-c763-496e-ad6c-ec5e83abedfd"
+        }
+      ],
       "id": 4
-    },
-    {
-      "name": "Planejamento Atualizado",
-      "budget": "13000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

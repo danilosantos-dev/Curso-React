@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaLinkedin  } from "react-icons/fa";
 
 
+
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
     <footer className={styles.footer}>
       <ul className={styles.list}>
         <li>
-            <FaGithub />  
+          <FaGithub/>           
         </li>
 
         <li>
