@@ -1,11 +1,12 @@
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   flex-wrap: wrap;
-  
-  
+  padding: 0;
+   
 }
 
 .start {
@@ -19,6 +20,13 @@
 
 .minHeight {
     min-height: 75vh;
+}
+
+@media (min-width: 450px) and (max-width: 900px){
+  .container{
+      width: 100%;
+      justify-content: space-between; 
+  }
 }
 
 

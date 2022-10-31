@@ -1,5 +1,6 @@
 .project_container{
     padding: 2em;
+    width: 100%;
 }
 
 .title_container{
@@ -7,5 +8,11 @@
     justify-content: space-between;
     margin-bottom: 2em;
 }
+
+@media (max-width: 500px){
+    .project_container{
+      flex-direction: column;
+    }
+  }
 
 

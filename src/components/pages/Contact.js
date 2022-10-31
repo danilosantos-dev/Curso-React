@@ -36,6 +36,7 @@ function Contact() {
             setName('')
             setEmail('')
             setMessage('')
+            alert('Mensagem enviada!')
         }, (err)=> {
             console.log("ERRO", err)
         })

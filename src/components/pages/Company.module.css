@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+}
+.child{
+    height: auto;
+    background-color: #222;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.child p{
+    color: white;
+    padding: 1em;    
+}
+.child span{
+    color: #57D5DE;
+}
+.child a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffbb33;
+}
+

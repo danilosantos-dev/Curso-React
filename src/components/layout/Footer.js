@@ -9,15 +9,15 @@ function Footer() {
     <footer className={styles.footer}>
       <ul className={styles.list}>
         <li>
-          <FaGithub/>           
+          <a href="https://github.com/danilosantos-dev" target="blank"><FaGithub/></a>           
         </li>
 
         <li>
-          <FaInstagram />
+        <a href="https://www.instagram.com/danilosantos_z/" target="blank"><FaInstagram /></a>
         </li>
 
         <li>
-          <FaLinkedin />
+        <a href="https://www.linkedin.com/in/danilo-santos-15704122a/" target="blank"><FaLinkedin /></a>
         </li>
       </ul>
       <p>
