@@ -1,20 +1,14 @@
 {
   "projects": [
     {
-      "name": "Desenvolvimento",
+      "name": "Projeto Teste",
       "budget": "20000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 3000,
+      "cost": 1500,
       "services": [
-        {
-          "name": "Contratar dev Asp.Net",
-          "cost": "1500",
-          "description": "Fazer nova pagina da empresa",
-          "id": "e46f218f-76ee-4679-9254-f1553dbb4a88"
-        },
         {
           "name": "Contratar dev JavaScript",
           "cost": "1500",
@@ -23,17 +17,6 @@
         }
       ],
       "id": 4
-    },
-    {
-      "name": "Projeto Teste seila",
-      "budget": "7000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

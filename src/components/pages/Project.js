@@ -117,21 +117,20 @@ function Project (){
         projectUpdated.services = servicesUpdated
         projectUpdated.cost = parseFloat(projectUpdated.cost) - parseFloat(cost)
 
-        fetch(`http://localhost:5000/projects${projectUpdated.id}`,{
+        fetch(`http://localhost:5000/projects/${projectUpdated.id}`, {
             method: 'PATCH',
             headers: {
-                'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
             },
-            body: JSON.stringify(projectUpdated)
-        }).then((resp) => resp.json())
-        .then((data) => {
-            setProject(projectUpdated)
-            setServices(servicesUpdated)
-            setMessage('Serviço Removido com sucesso!')
-        })
-        .catch(err => console.log(err))
-
-    }
+            body: JSON.stringify(projectUpdated),
+          })
+            .then((resp) => resp.json())
+            .then((data) => {
+              setProject(projectUpdated)
+              setServices(servicesUpdated)
+              setMessage('Serviço removido com sucesso!')
+            })
+        }
 
     function toggleProjectForm(){
         setShowProjectForm(!showProjectForm)
